@@ -29,7 +29,7 @@ export default function Home() {
 
       <Text my={8} mt={12}>
         <Heading as="h3" size="md" my={2}>
-          Things to note
+          Things to note:
         </Heading>
         <UnorderedList px={16} align="left">
           <ListItem>
@@ -44,8 +44,7 @@ export default function Home() {
           <ListItem>
             A ColorModeToggle component has been included
             in <Code>/components/ColorModeToggle.js</Code>
-            for toggling color mode. <Link href="https://chakra-ui.com/docs/features/color-mode" isExternal>(see more details)</Link>
-            Edit color mode options in <Code>/lib/theme.js</Code>
+            for toggling color mode. <Link href="https://chakra-ui.com/docs/features/color-mode" isExternal>(see more details)</Link> Edit color mode options in <Code>/lib/theme.js</Code>
           </ListItem>
         </UnorderedList>
       </Text>
