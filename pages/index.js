@@ -33,6 +33,9 @@ export default function Home() {
         </Heading>
         <UnorderedList px={16} align="left">
           <ListItem>
+            The <Code>.gitkeep</Code> in <Code>/public</Code> is there to prevent GitHub from deleting the <Code>/public</Code> directory. Delete it when adding any files to it.
+          </ListItem>
+          <ListItem>
             Add a favicon by inserting an image named 'favicon.ico' into <Code>/public</Code> 
             (favicon import line is in <Code>/pages/_app.js</Code>)
           </ListItem>
