@@ -2,11 +2,15 @@
 Linkai's Next.js template using the Chakra UI library.
 
 ## 🛠️ Installation & Set Up
-1. Install dependencies
+1. Clone this repo
+```
+npx degit https://github.com/linkai101/next-chakra-template <RELATIVE_DIR_PATH>
+```
+2. Install dependencies
 ```
 npm install
 ```
-2. Start development server
+3. Start development server
 ```
 npm run dev
 ```
